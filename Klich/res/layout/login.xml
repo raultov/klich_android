@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:id="@+id/LinearLayout01" android:layout_centerHorizontal="true" android:layout_alignParentTop="true">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout01" android:id="@+id/LinearLayout03" android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout10" android:layout_below="@+id/LinearLayout03" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/email" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_login_email" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textEmailAddress" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout26" android:layout_below="@+id/LinearLayout10" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout27" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/password" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText  android:id="@+id/edit_login_password" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textPassword" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout40" android:layout_below="@+id/LinearLayout26" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content"  android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/TextView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="20dp" />
+	</LinearLayout>	
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/LinearLayout41" android:layout_below="@+id/LinearLayout40" android:layout_centerHorizontal="true">
+	    <Button android:id="@+id/button_login_ok"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:gravity="center_horizontal" android:text="@string/aceptar" />
+	</LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

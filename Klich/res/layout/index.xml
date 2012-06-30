@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:id="@+id/LinearLayout01" android:layout_centerHorizontal="true" android:layout_alignParentTop="true">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/index" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout01" android:id="@+id/LinearLayout03" android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout03" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:baselineAligned="true" >
+		<LinearLayout android:id="@+id/LinearLayout11" android:layout_width="fill_parent"  android:layout_height="wrap_content" android:layout_weight="1" android:gravity="fill_vertical|top" >
+			<TextView android:id="@+id/textView04" android:textSize="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/login_txt" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+		    <Button android:id="@+id/button_login" android:layout_width="150dp" android:layout_height="fill_parent" android:gravity="center_horizontal|center_vertical" android:text="@string/login" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout19" android:layout_below="@+id/LinearLayout10" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+	    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/hello" android:paddingBottom="2dp" android:paddingLeft="5dp"
+	        android:paddingRight="5dp" android:paddingTop="2dp" android:scaleType="fitXY" android:src="@drawable/cursor" />
+	</LinearLayout>	
+	
+	<LinearLayout android:id="@+id/LinearLayout26" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout19" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:baselineAligned="true" android:gravity="bottom" >
+		<LinearLayout android:id="@+id/LinearLayout27" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			<TextView android:id="@+id/textView11" android:textSize="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/new_register_txt" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center_vertical|fill_vertical" >
+		    <Button android:id="@+id/button_register" android:layout_width="150dp" android:layout_height="fill_parent" android:gravity="center_horizontal|center_vertical" android:text="@string/new_register" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout30" android:layout_below="@+id/LinearLayout26" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+	    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/hello" android:paddingBottom="2dp" android:paddingLeft="5dp"
+	        android:paddingRight="5dp" android:paddingTop="2dp" android:scaleType="fitXY" android:src="@drawable/cursor" />
+	</LinearLayout>	
+	
+	<LinearLayout android:id="@+id/LinearLayout31" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout30" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:baselineAligned="true" android:gravity="bottom" >
+		<LinearLayout android:id="@+id/LinearLayout32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="fill_vertical" >
+			<TextView android:id="@+id/textView12" android:textSize="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/remember_password_txt" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout33" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center_vertical|fill_vertical" >
+		    <Button android:id="@+id/button_remember" android:layout_width="150dp" android:layout_height="fill_parent" android:gravity="center_horizontal|center_vertical" android:text="@string/remember_password" />
+		</LinearLayout>
+	</LinearLayout>	
+	
+</RelativeLayout>

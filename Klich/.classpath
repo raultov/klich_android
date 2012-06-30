@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/home/raul/Documents/workspace_android_klich2/wpsapi-3.4.1_12-android/lib/wpsapi.jar"/>
+	<classpathentry kind="lib" path="/home/raul/Documents/workspace_android_klich2/apndroid_api.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="/home/raul/Documents/workspace_android_klich2/ksoap2-android-assembly-2.5.7-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/home/raul/Documents/workspace_klich2/klich-common/target/klich-common-1.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

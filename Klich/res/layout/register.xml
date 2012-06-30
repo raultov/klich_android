@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/register_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:id="@+id/LinearLayout01" android:layout_centerHorizontal="true" android:layout_alignParentTop="true">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/registro" android:textSize="20dp" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/LinearLayout02" android:layout_below="@+id/LinearLayout01" android:layout_centerHorizontal="true">
+	    <TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/datos_personales" android:textSize="15dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout02" android:id="@+id/LinearLayout03" android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout10" android:layout_below="@+id/LinearLayout03" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/email" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_register_email" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textEmailAddress" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout26" android:layout_below="@+id/LinearLayout10" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout27" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/password" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_register_password" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textPassword" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout29" android:layout_below="@+id/LinearLayout26" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/confirm_password" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout31" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_register_password_confirm" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textPassword" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>		
+	
+	<LinearLayout android:id="@+id/LinearLayout13" android:layout_below="@+id/LinearLayout29" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/nombre" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_register_name" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textPersonName" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout16" android:layout_below="@+id/LinearLayout13" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/apellidos" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+		    <EditText android:id="@+id/edit_register_surname" android:layout_width="150dp" android:layout_height="fill_parent" android:inputType="textPersonName" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout19" android:layout_below="@+id/LinearLayout16" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+	    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/hello" android:paddingBottom="2dp" android:paddingLeft="5dp"
+	        android:paddingRight="5dp" android:paddingTop="2dp" android:scaleType="fitXY" android:src="@drawable/cursor" />
+	</LinearLayout>
+
+	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout19" >		
+	    <TextView android:id="@+id/text_register_pick_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fecha_nacimiento" android:layout_marginLeft="20dp" />
+	</TableRow>
+
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/tableRow1" > 
+	    <TextView android:id="@+id/text_register_date_display" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_marginLeft="20dp" />
+	</TableRow>
+	
+	<LinearLayout android:id="@+id/LinearLayout42" android:layout_below="@+id/tableRow2" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+	    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/hello" android:paddingBottom="2dp" android:paddingLeft="5dp"
+	        android:paddingRight="5dp" android:paddingTop="2dp" android:scaleType="fitXY" android:src="@drawable/cursor" />
+	</LinearLayout>	
+
+    <RadioGroup android:id="@+id/radiogroup_register_sex" android:layout_marginLeft="20dp" android:layout_width="fill_parent" android:layout_below="@+id/LinearLayout42" android:layout_height="wrap_content" android:orientation="vertical">
+    	<RadioButton android:id="@+id/radio_register_male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hombre" />
+    	<RadioButton android:id="@+id/radio_register_female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mujer" />
+    </RadioGroup>
+
+	<!--LinearLayout android:id="@+id/LinearLayout20" android:layout_below="@+id/tableRow2" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout21" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="@string/sexo" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+		    <RadioButton android:id="@+id/radioButton1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hombre" />
+		    <RadioButton android:id="@+id/radioButton6" android:layout_below="@+id/radioButton1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hombre" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/LinearLayout23" android:layout_below="@+id/LinearLayout20" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_centerVertical="true" android:layout_width="fill_parent" android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/LinearLayout24" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" > 
+			<TextView android:id="@+id/textView10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:gravity="center_horizontal" android:text="" />
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/LinearLayout25" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+		    <RadioButton android:id="@+id/radioButton2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mujer" />
+		</LinearLayout>
+	</LinearLayout-->
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_width="wrap_content" android:id="@+id/LinearLayout40" android:layout_below="@+id/RadioGroup05" android:layout_centerHorizontal="true">
+		<TextView android:id="@+id/TextView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="20dp" />
+	</LinearLayout>	
+	
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/LinearLayout41" android:layout_below="@+id/LinearLayout40" android:layout_centerHorizontal="true">
+	    <Button android:id="@+id/button_register_ok"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:gravity="center_horizontal" android:text="@string/aceptar" />
+	</LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GPS!</string>
+    <string name="app_name">Klich2</string>
+    <string name="registro">Registro</string>
+    <string name="datos_personales">Datos personales</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="fecha_nacimiento">Definir fecha de nacimiento</string>
+    <string name="email">Correo electrónico:</string>
+    <string name="sexo" >Sexo:</string>
+    <string name="hombre" >   Hombre</string>
+    <string name="mujer" >   Mujer</string>
+    <string name="nacionalidad" >Nacionalidad:</string>
+    <string name="password" >Clave:</string>
+    <string name="confirm_password" >Confirmar clave:</string>
+    <string name="aceptar" >Aceptar</string>
+    
+    <string name="register_scroll">Registro</string>
+   
+    <string name="index">Inicio</string>
+    <string name="login">Login</string>
+    <string name="register">Registro</string>
+    <string name="remember">Recordar clave</string>
+    <string name="login_txt">Si ya dispone de un usuario puede entrar haciendo click en login</string>
+    <string name="new_register">Registrarse</string>
+    <string name="new_register_txt">Si no dispone de usuario puede registrarse haciendo click en registrarse</string>
+	<string name="remember_password">Recordar clave</string>
+	<string name="remember_password_txt">Si no recuerda la clave puede hacer click en Recordar Clave</string>
+</resources>
